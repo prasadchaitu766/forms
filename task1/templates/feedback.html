@@ -1,0 +1,8 @@
+<form action="/save/" method="post">
+    {% csrf_token %}
+
+
+{{ res.as_p }}
+<input type="submit" value="Submit">
+    </form>
+{{ message }}
